@@ -1,0 +1,48 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Wrapper */
+.main_div {
+    display: flex;
+    background-image: url(./images/download.jfif);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    object-fit: contain !important;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh !important;         
+    background-color: currentColor !important;
+}
+
+/* Form Container */
+.form_container {
+    border: 1px solid black;
+    width: 350px;
+    margin: 0 auto; /* Centers horizontally if needed */
+    padding: 30px;  /* Adds some spacing inside the container */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
+    background-color: #f9f9f9; /* Light background for better readability */
+}
+.form_btn .btn {
+    width: 100% !important;
+}
+
+#para {
+    font-size: 15px;
+}
+
+#error {
+    font-size: 15px;
+}
+.btn {
+    padding: 10px !important;
+}
+.btn:hover{
+    transform: scale(1.1) !important;
+}
